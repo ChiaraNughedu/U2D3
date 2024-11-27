@@ -21,6 +21,7 @@ header {
   height: 200px;
   border-radius: 20px;
   display: flex;
+  justify-content: center;
 }
 .navbar {
   display: flex;
