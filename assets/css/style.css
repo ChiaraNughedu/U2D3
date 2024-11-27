@@ -99,8 +99,32 @@ section {
     justify-content: center;
     align-self: center;
 }
+/* ARTICLE*/ 
+
 .latest {
     text-align: center;
     font-size: 1.2rem;
     font-weight: 800;
+}
+article h3 {
+    text-align: center;
+    margin: 10px;
+}
+article {
+    background-color: #fef7e2;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+article div, article img {
+    display: flex;
+    justify-content: center;
+    align-self:center;
+    width: 80%;
+    margin: 15px 0; 
+    border-radius: 10px;
+    text-align: center;
+}
+article p {
+    padding: 15px;
 }
